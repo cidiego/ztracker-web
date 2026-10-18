@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Tracker - Amazon Price History</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #66ff66;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #66ff66;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0b1e24;
+            color: #66ff66;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2em;
+            border: 1px solid #66ff66;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #11303b;
+        }
+        .card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+        .highlight {
+            color: #66ff66;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #888;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+        a { color: #66ff66; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Z Tracker</h1>
+            <p><strong>Z stands for Zero.</strong> Zero data stored. 100% private.</p>
+            <a href="https://chromewebstore.google.com/detail/z-tracker/opcjidneidibcdnafgkjiimcdmffhclh?authuser=0&hl=fr" class="btn">Get Z Tracker for Chrome</a>
+        </header>
+
+        <div class="card">
+            <h2>What is Z Tracker?</h2>
+            <p>Z Tracker is a browser extension that helps you make smarter buying decisions on Amazon. It tracks product prices, shows you 1-year price history, and alerts you when there is a good deal.</p>
+            <p>Unlike other price trackers, Z Tracker does not use central servers. Your entire price history and tracked products are stored locally on your own device. <span class="highlight">Your data never leaves your browser.</span></p>
+        </div>
+
+        <div class="card">
+            <h2>Features</h2>
+            <ul>
+                <li>Builds a 1-year price history (lowest, average, and current price).</li>
+                <li>Records used / second-hand prices when available.</li>
+                <li>Desktop and Telegram notifications when prices drop.</li>
+                <li>One-click "Z Track -5%" button on Amazon pages.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Privacy Policy</h2>
+            <p><strong>Stored on your device only.</strong> Your tracked products, price history, target prices, language, and settings are stored locally in your browser. Z Tracker has no database and no account system. Uninstalling the extension deletes this data.</p>
+            <p><strong>Price checks.</strong> To detect price drops, the extension periodically loads the Amazon pages of the products you track, directly from your browser to Amazon. Nothing about these checks is sent to us.</p>
+            <p><strong>Telegram Alerts (optional).</strong> If you enable them, each alert sends the product name, price, image URL, product URL, and your Telegram Chat ID to a Cloudflare Worker, which forwards it to Telegram. The Worker does not store or log this data. We do not sell this data.</p>
+            <p><strong>Affiliate links (optional).</strong> If you enable them, deal panels and notifications open Amazon with our Amazon Associates tag. Amazon may provide us aggregated reports of qualifying purchases; these reports do not identify you.</p>
+            <p><strong>No analytics.</strong> Z Tracker does not collect analytics, browsing history, or personal identification information beyond what is described above.</p>
+            <p>Contact: cidiego@gmail.com</p>
+        </div>
+
+        <footer>
+            <p>As an Amazon Associate, Z Tracker earns from qualifying purchases.</p>
+            <p>&copy; 2026 Z Tracker. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
